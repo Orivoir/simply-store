@@ -5,7 +5,7 @@
 ## MemoryStore is **not** shared with browser
 
 Client is recognized with **user-agent** from *headers request* ,
-each **user-agent** is a new client
+each **user-agent** is a new client.
 
 ### npm install simply-store --save
 ### yarn add simply-store
@@ -23,6 +23,7 @@ const simplystore = require('simply-store')( expires ) ;
 ## Usage with **[Express](https://www.npmjs.com/package/express)** as *middleware*:
 
 - npm install express --save
+- yarn add express --save
 
 from **app.js**:
 ```javascript
