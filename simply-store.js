@@ -1,3 +1,10 @@
+/**
+ * @author Samuel GABORIEAU
+ * @package simply-store
+ * @version 1.0.3
+ * @git <https://github.com/Orivoir/simply-store>
+ * @license Apache-2.0 <http://www.apache.org/licenses/LICENSE-2.0>
+ */
 const encodeStringBase64 = require('btoa') ;
 
 class SimplyStore {

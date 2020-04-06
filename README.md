@@ -49,7 +49,7 @@ app.get( '/' , (req,res) => {
     res.json( {
 
         test: req.session.test ,
-        id: req.sessionID
+        id: req.sessionID // string base64
 
     } ) ;
 
@@ -67,7 +67,6 @@ from **app.js**:
 ```javascript
 const server = require('http').Server( function( req, res ) {
 
-
     simplystore( req, res ) ;
 
     if( !req.session.test ) {
@@ -77,6 +76,7 @@ const server = require('http').Server( function( req, res ) {
         req.session.save() ;
     }
 
+    // sessionID is a string encode in base64
     res.end(`test: ${req.session.test}\nid: ${req.sessionID}`) ;
 
 } ) ;
@@ -91,4 +91,3 @@ server.listen( process.env.PORT || 3000 , () => {
 
 ### npm install simply-store --save
 ### yarn add simply-store
-

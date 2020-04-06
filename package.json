@@ -1,8 +1,8 @@
 {
   "name": "simply-store",
   "displayName": "simply-store",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Simply Store is a session handler with expires after custom delay , easy use",
   "main": "simply-store.js",
   "scripts": {
     "start": "node ."
@@ -23,7 +23,11 @@
     "api"
   ],
   "author": "Samuel GABORIEAU",
-  "license": "ISC",
+
+  "licenses": [{
+    "type":"Apache-2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  }] ,
   "dependencies": {
     "btoa": "^1.2.1"
   }
