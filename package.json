@@ -1,0 +1,26 @@
+{
+  "name": "simply-store",
+  "displayName": "simply-store",
+  "version": "1.0.1",
+  "description": "",
+  "main": "simply-store.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "session",
+    "express",
+    "store",
+    "simply",
+    "storage",
+    "easy",
+    "use",
+    "middleware",
+    "api"
+  ],
+  "author": "Samuel GABORIEAU",
+  "license": "ISC",
+  "dependencies": {
+    "btoa": "^1.2.1"
+  }
+}
